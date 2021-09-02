@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="mediaQueries/mediaQuery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>weather</title>
+</head>
+<body  >
+    <div class="container">
+            <section class=" firstSection">
+            <div class="button"></div>
+            <div class="dateInfo">
+                <div id="date">Wednesday,May 12,2021</div>
+                <div id="time">5:58 PM</div>
+            </div>
+            <div class="search">
+                <p>Enter a city</p>
+                    <input type="text" id="searchBox" >
+                    <input type="submit" id="submitButton">
+            </div>
+        </section>
+        <section class="secondSection" >
+          <div class="degreeContainer"  >
+                <p  id="degree">0 </p>
+                <div id="cloud">
+                    <img src="icons/icon-cloud-heavy.svg" alt="">
+                    <p id="cloudState">.......</p>
+                </div>
+            </div>
+            <div class="weatherRect" >
+                <div class="leftRect">
+                    <div class="content">
+                        <p><span>Wind</span> <span > <span id="Speed">0</span>  mph < W</span></p>
+                        <p><span>Humidity</span> <span id="humidity">0%</span> </p>
+                        <p><span>Pressure</span> <span><span id="pressure">0</span> hPa</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="line"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>

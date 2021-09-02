@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color:white;  
+    box-sizing: border-box;  
+    overflow-x: hidden;
+}
+body
+{
+  
+    background-color:#454BC6;
+    background-image: linear-gradient(#454BC6, #060950);
+}
+.container
+{
+    margin:auto;
+    width: 60%;
+}
+.dateInfo 
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px; 
+    font-weight: 400;   
+}
+.dateInfo div
+{
+    padding-top: 17px;
+}
+.search
+{
+    margin-top:25px;
+}
+.search p 
+{
+    margin-bottom: 10px;
+    margin-left: 7px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.search input:nth-child(2)
+{
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    width: 180px;
+    background-color: #070A43;
+    padding: 3.5px;
+}
+
+.search input:nth-child(3)
+{
+    width: 120px;
+    padding: 2px;
+    line-height: 20px;
+    background-color:#454BC6 ;
+    margin-left: 8px;
+    border: 0;
+    border-radius: 5px;  
+    cursor: pointer; 
+}
+
+.degreeContainer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;   
+}
+.degreeContainer p:nth-child(1)
+{
+    margin-top: 5px;
+    font-size: 100px;
+    font-weight:400;
+    letter-spacing: 1px;
+    position: relative;    
+}
+
+.cloud p
+{
+    font-weight: 300;
+}
+.weatherRect
+{
+    margin-top: 35px;
+    flex-grow: 1;
+    height: 150px;
+    border-radius: 10px;
+    background-color:#070A43 ; 
+    border: 1px solid transparent ;
+    display: flex;
+    
+}
+.weatherRect .leftRect 
+{     
+    margin: 27px auto;    
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 90%;          
+}
+.weatherRect .leftRect p
+{
+    display: flex;
+    justify-content: space-between;     
+}
+.weatherRect .leftRect .content
+{
+    padding: 10px;
+}
+.line
+{
+     width: 120%;
+     margin-left: -5%;
+     height: 100px;
+     margin-top: 70px ;     
+     border: 20px 0px 0px 0px;
+     border: solid;
+     border-color: white transparent transparent transparent;
+     border-radius: 50%;
+}
